@@ -1,0 +1,66 @@
+<html>
+<body>
+ <form action="ps_2address.php" method="GET">
+ <fieldset><legend>Rellena</legend>
+	<table>
+	<tr>
+		<td>Firstname: </td>
+		<td><INPUT type="text" name="firstname"></td>
+		<td rowspan="9"><p> Para que funcione corectamente este formulario debes de tener en cuenta las siguientes indicaciones:</p>
+	      <ul>
+	        <li>Insert: Para insertar un usuario tenemos que rellenar todos los campos.</li>
+	        <li>Update: Para actualizar un usuario tenemos que indicar un DNI obligatoriamente y despues los datos que se quieran modificar.</li>
+	        <li>Delete: Para borrar un usuario solo tenemos que indicar su DNI.</li>
+        </ul></td>
+	</tr>
+	
+    <tr>
+		<td>Lastname: </td>
+		<td><INPUT type="text" name="lastname"></td>
+	  </tr>
+				
+    <tr>
+		<td>Address: </td>
+		<td><INPUT type="text" name="address"></td>
+	  </tr>
+	
+	<tr>
+		<td>Postcode: </td>
+		<td><INPUT name="postcode" type="text"></td>
+	  </tr>
+	
+	<tr>
+		<td>City: </td>
+		<td><INPUT name="city" type="text"></td>
+	  </tr>
+    
+	<tr>
+		<td>Phone: </td>
+		<td><INPUT name="phone" type="text"></td>
+	  </tr>
+	
+	<tr>
+		<td>DNI: </td>
+		<td><INPUT name="dni" type="text"></td>
+	  </tr>
+	
+	<tr>
+    	<td>Que consulta desear realizar:</td>
+        <td><select name="Consulta">
+          <option value="insert">Insert</option>
+          <option value="update">Update</option>
+          <option value="delete">Delete</option>
+          </select>
+        </td>
+      </tr>
+    
+    <tr>
+		<td><INPUT type="submit" value="Send"></td>
+		<td><INPUT type="reset"></td>
+	  </tr>
+	</table>
+</fieldset>
+ </form>
+ <a href="index.html">Inicio</a>
+ </body>
+ </html>

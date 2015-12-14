@@ -1,0 +1,42 @@
+<html>
+<body>
+ <form action="ps_2customer_group.php" method="GET">
+ <fieldset><legend>Rellena</legend>
+	<table>
+	<tr>
+		<td>id_group: </td>
+		<td><INPUT type="text" name="idgroup"></td>
+
+        <td rowspan="9"><p> Para que funcione corectamente este formulario debes de tener en cuenta las siguientes indicaciones:</p>
+	      <ul>
+	        <li>Insert: Para insertar un registro debemos rellenar todos los campos.</li>
+	        <li>Update: Para actualizar debes indicarle el id_group y el nuevo id_customer</li>
+	        <li>Delete: Para borrar un registro debemos ingresar todos los campos.</li>
+        </ul></td>
+	</tr>
+	
+    <tr>
+		<td>id_customer: </td>
+		<td><INPUT type="text" name="idcustomer"></td>
+	</tr>
+    
+	<tr>
+    	<td>Que consulta desear realizar:</td>
+        <td><select name="Consulta">
+		  <option value="insert">Insert</option>
+          <option value="update">Update</option>
+          <option value="delete">Delete</option>
+        </select>
+        </td>
+    </tr>
+    
+    <tr>
+		<td><INPUT type="submit" value="Send"></td>
+		<td><INPUT type="reset"></td>
+	</tr>
+	</table>
+</fieldset>
+ </form>
+ <a href="index.html">Inicio</a>
+ </body>
+ </html>

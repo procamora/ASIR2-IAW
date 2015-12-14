@@ -1,0 +1,51 @@
+<html>
+<body>
+ <form action="ps_2customer.php" method="GET">
+ <fieldset><legend>Rellena</legend>
+	<table>
+	<tr>
+		<td>Firstname: </td>
+		<td><INPUT type="text" name="firstname"></td>
+        <td rowspan="9"><p> Para que funcione corectamente este formulario debes de tener en cuenta las siguientes indicaciones:</p>
+	      <ul>
+	        <li>Insert: Para insertar un registro debemos de indicar todos los campos.</li>
+	        <li>Update: Para actualizar un registro debemos de indicar un email y despues los datos que queramos modificar.</li>
+	        <li>Delete: Para borrar un registro denemos indicar el email.</li>
+        </ul></td>
+	</tr>
+	
+    <tr>
+		<td>Lastname: </td>
+		<td><INPUT type="text" name="lastname"></td>
+		</tr>
+				
+    <tr>
+		<td>Email: </td>
+		<td><INPUT type="text" name="email"></td>
+	</tr>
+	
+	<tr>
+		<td>Password: </td>
+		<td><INPUT name="passwd" type="password"></td>
+	</tr>
+    
+	<tr>
+    	<td>Que consulta desear realizar:</td>
+        <td><select name="Consulta">
+		  <option value="insert">Insert</option>
+          <option value="update">Update</option>
+          <option value="delete">Delete</option>
+        </select>
+        </td>
+    </tr>
+    
+    <tr>
+		<td><INPUT type="submit" value="Send"></td> 
+		<td><INPUT type="reset"></td>
+	</tr>
+	</table>
+</fieldset>
+ </form>
+ <a href="index.html">Inicio</a>
+ </body>
+ </html>
